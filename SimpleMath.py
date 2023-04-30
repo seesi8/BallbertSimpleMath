@@ -1,8 +1,8 @@
 import random
 import time
 
-from Classes import Response
-from Decorators import reg
+from Hal.Classes import Response
+from Hal.Decorators import reg
 
 
 class SimpleMath:
