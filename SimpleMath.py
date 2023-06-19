@@ -7,7 +7,7 @@ from Hal.Decorators import reg
 
 class SimpleMath:
     @reg(name="Add")
-    def add(self, a, b:):
+    def add(self, a, b):
         """
         Adds two numbers and returns the result.
     
