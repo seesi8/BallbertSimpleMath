@@ -32,7 +32,7 @@ class SimpleMath:
         return Response(suceeded=True, data=a+b)
 
     @reg(name="Multiply")
-    def multiply(self, a: "number", b: "number"):
+    def multiply(self, a, b):
         """
         Multiplies two numbers and returns the result.
     
