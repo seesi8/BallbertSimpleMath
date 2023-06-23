@@ -11,11 +11,8 @@ class SimpleMath:
         """
         Adds two numbers and returns the result.
 
-        :param self: The object instance.
-        :param a: The first number to be added.
-        :param b: The second number to be added.
-        :type a: number
-        :type b: number
+        :param int a: The first number to be added.
+        :param int b: The second number to be added.
         :return: The sum of the two numbers.
         :rtype: number
         :raises: None
@@ -35,10 +32,8 @@ class SimpleMath:
         Multiplies two numbers and returns the result.
 
         :param self: The object instance.
-        :param a: The first number to be multiplied.
-        :param b: The second number to be multiplied.
-        :type a: number
-        :type b: number
+        :param int a: The first number to be multiplied.
+        :param int b: The second number to be multiplied.
         :return: The product of the two numbers.
         :rtype: number
         :raises: None
@@ -58,10 +53,8 @@ class SimpleMath:
         Subtracts one number from another and returns the result.
 
         :param self: The object instance.
-        :param a: The number to be subtracted from.
-        :param b: The number to subtract.
-        :type a: number
-        :type b: number
+        :param int a: The number to be subtracted from.
+        :param int b: The number to subtract.
         :return: The difference between the two numbers.
         :rtype: number
         :raises: None
@@ -81,10 +74,8 @@ class SimpleMath:
         Divides one number by another and returns the result.
 
         :param self: The object instance.
-        :param a: The dividend.
-        :param b: The divisor.
-        :type a: number
-        :type b: number
+        :param int a: The dividend.
+        :param int b: The divisor.
         :return: The quotient of the division.
         :rtype: number
         :raises: None
