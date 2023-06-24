@@ -22,8 +22,8 @@ class SimpleMath:
         >>> obj.add(3, 4)
         7
         """
-        a = integer(a)
-        b = integer(b)
+        a = int(a)
+        b = int(b)
         return Response(succeeded=True, data=a+b)
 
     @reg(name="Multiply")
@@ -43,8 +43,8 @@ class SimpleMath:
         >>> obj.multiply(3, 4)
         12
         """
-        a = integer(a)
-        b = integer(b)
+        a = int(a)
+        b = int(b)
         return Response(succeeded=True, data=a*b)
 
     @reg(name="Subtract")
@@ -64,8 +64,8 @@ class SimpleMath:
         >>> obj.subtract(7, 3)
         4
         """
-        a = integer(a)
-        b = integer(b)
+        a = int(a)
+        b = int(b)
         return Response(succeeded=True, data=a-b)
 
     @reg(name="Divide")
@@ -85,6 +85,6 @@ class SimpleMath:
         >>> obj.divide(10, 2)
         5.0
         """
-        a = integer(a)
-        b = integer(b)
+        a = int(a)
+        b = int(b)
         return Response(succeeded=True, data=a/b)
