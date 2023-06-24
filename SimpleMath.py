@@ -11,8 +11,8 @@ class SimpleMath:
         """
         Adds two numbers and returns the result.
 
-        :param int a: The first number to be added.
-        :param int b: The second number to be added.
+        :param integer a: The first number to be added.
+        :param integer b: The second number to be added.
         :return: The sum of the two numbers.
         :rtype: number
         :raises: None
@@ -22,8 +22,8 @@ class SimpleMath:
         >>> obj.add(3, 4)
         7
         """
-        a = int(a)
-        b = int(b)
+        a = integer(a)
+        b = integer(b)
         return Response(succeeded=True, data=a+b)
 
     @reg(name="Multiply")
@@ -32,8 +32,8 @@ class SimpleMath:
         Multiplies two numbers and returns the result.
 
         :param self: The object instance.
-        :param int a: The first number to be multiplied.
-        :param int b: The second number to be multiplied.
+        :param integer a: The first number to be multiplied.
+        :param integer b: The second number to be multiplied.
         :return: The product of the two numbers.
         :rtype: number
         :raises: None
@@ -43,8 +43,8 @@ class SimpleMath:
         >>> obj.multiply(3, 4)
         12
         """
-        a = int(a)
-        b = int(b)
+        a = integer(a)
+        b = integer(b)
         return Response(succeeded=True, data=a*b)
 
     @reg(name="Subtract")
@@ -53,8 +53,8 @@ class SimpleMath:
         Subtracts one number from another and returns the result.
 
         :param self: The object instance.
-        :param int a: The number to be subtracted from.
-        :param int b: The number to subtract.
+        :param integer a: The number to be subtracted from.
+        :param integer b: The number to subtract.
         :return: The difference between the two numbers.
         :rtype: number
         :raises: None
@@ -64,8 +64,8 @@ class SimpleMath:
         >>> obj.subtract(7, 3)
         4
         """
-        a = int(a)
-        b = int(b)
+        a = integer(a)
+        b = integer(b)
         return Response(succeeded=True, data=a-b)
 
     @reg(name="Divide")
@@ -74,8 +74,8 @@ class SimpleMath:
         Divides one number by another and returns the result.
 
         :param self: The object instance.
-        :param int a: The dividend.
-        :param int b: The divisor.
+        :param integer a: The dividend.
+        :param integer b: The divisor.
         :return: The quotient of the division.
         :rtype: number
         :raises: None
@@ -85,6 +85,6 @@ class SimpleMath:
         >>> obj.divide(10, 2)
         5.0
         """
-        a = int(a)
-        b = int(b)
+        a = integer(a)
+        b = integer(b)
         return Response(succeeded=True, data=a/b)
